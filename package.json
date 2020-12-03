@@ -1,5 +1,5 @@
 {
-	"name": "vue-terminal",
+	"name": "@knowscount/vue-terminal",
 	"version": "1.0.0",
 	"description": "that which helped me build my portfolio",
 	"main": "./dist/vue-terminal.common.js",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/knowscount/portfolio.git"
+		"url": "git+https://github.com/KnowsCount/vue-terminal.git"
 	},
 	"dependencies": {
 		"@vue/composition-api": "^0.3.4",
