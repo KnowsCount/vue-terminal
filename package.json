@@ -1,0 +1,50 @@
+{
+	"name": "vue-terminal",
+	"version": "1.0.0",
+	"description": "that which helped me build my portfolio",
+	"main": "./dist/vue-terminal.common.js",
+	"scripts": {
+		"test:unit": "vue-cli-service test:unit",
+		"lint": "vue-cli-service lint",
+		"build:storybook": "vue-cli-service build:storybook -c config/storybook",
+		"bundle": "vue-cli-service build --target lib --name vue-terminal ./src/main.ts",
+		"serve:storybook": "vue-cli-service serve:storybook -p 6006 -c config/storybook"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knowscount/portfolio.git"
+	},
+	"dependencies": {
+		"@vue/composition-api": "^0.3.4",
+		"argparse": "jsmith/argparse#0c0faed0623e14400021f3ffbd9068d77aa92cc8",
+		"linkifyjs": "^2.1.6",
+		"vue-perfect-scrollbar": "^0.1.0"
+	},
+	"peerDependencies": {
+		"vue": "^2.6.11"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.1.0",
+		"@types/mocha": "^5.2.4",
+		"@vue/cli-plugin-babel": "^3.8.0",
+		"@vue/cli-plugin-typescript": "^4.1.1",
+		"@vue/cli-plugin-unit-mocha": "^3.8.0",
+		"@vue/cli-service": "^3.8.4",
+		"@vue/test-utils": "^1.0.0-beta.20",
+		"chai": "^4.1.2",
+		"stylus": "^0.54.5",
+		"stylus-loader": "^3.0.2",
+		"typescript": "^3.7.3",
+		"vue-cli-plugin-storybook": "^0.6.1",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"keywords": [
+		"vue"
+	],
+	"author": "KnowsCount",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knowscount/portfolio/issues"
+	},
+	"homepage": "https://github.com/knowscount/portfolio#readme"
+}
